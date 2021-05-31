@@ -63,12 +63,7 @@ body {
   color: #999999;
 }
 
-.hero-image img {
-  max-height: 542px;
-  max-width: 994px;
-}
-
-/* image shadows */
+/* Glow effects */
 .image-shadow {
   -webkit-box-shadow: 1px 1px 10px #999999;
   -moz-box-shadow: 1px 1px 10px #999999;
@@ -77,11 +72,29 @@ body {
   border-radius: 5px;
 }
 
+.text-shadow {
+  text-shadow: 2px 2px 20px #b3b3b3;
+}
+
 .intro-quote {
   font-size: 1.3rem;
   margin: 2rem;
 }
+.about-text-container {
+  position: relative;
+  max-width: 600px;
+}
+.about-text {
+  position: absolute;
+  top: 40%;
+}
 
+.block-divider {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----------------------- Buttons */
 .btn-dark {
   color: #999999;
   background-color: #1c1f23;
