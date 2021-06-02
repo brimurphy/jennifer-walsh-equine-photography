@@ -125,6 +125,18 @@ footer .social-links {
   color: #999999;
 }
 
+.footer-nav a {
+  font-size: 0.8rem;
+  color: #999999;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-nav a:hover {
+  color: #b3b3b3;
+  text-shadow: 0 0 10px #999999;
+}
+
 .icon:hover,
 .icon:active {
   color: #b3b3b3;
