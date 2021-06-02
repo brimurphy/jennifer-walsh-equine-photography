@@ -60,7 +60,7 @@ body {
   );
   /* Back up color */
   background-color: rgb(34, 34, 34);
-  color: #999999;
+  color: #dfdfdf;
 }
 
 /* Glow effects */
@@ -105,4 +105,28 @@ body {
   color: #1c1f23;
   background-color: #999999;
   border-color: #1c1f23;
+}
+
+/* ----------------------- Footer */
+
+footer {
+  min-height: 100px;
+  background-color: #1c1f23;
+}
+
+footer .social-links {
+  display: inline;
+  margin: 0.5rem;
+  padding: 0.2rem;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #999999;
+}
+
+.icon:hover,
+.icon:active {
+  color: #b3b3b3;
+  text-shadow: 0 0 10px #999999;
 }
