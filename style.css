@@ -130,3 +130,12 @@ footer .social-links {
   color: #b3b3b3;
   text-shadow: 0 0 10px #999999;
 }
+
+blockquote .small,
+.copyright-info {
+  font-size: 0.7rem;
+  text-align: center;
+}
+.copyright-info {
+  padding-top: 2rem;
+}
